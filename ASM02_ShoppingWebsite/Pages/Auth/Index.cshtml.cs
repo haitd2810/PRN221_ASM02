@@ -19,15 +19,17 @@ namespace ASM02_ShoppingWebsite.Pages.Auth
 
             if (acc != null)
             {
-                if (acc.Type.Equals("Admin") || acc.Type.Equals("Staff") || acc.Type.Equals("User"))
+                if (acc.Type.Equals("Admin") || acc.Type.Equals("Staff"))
                 {
-                    HttpContext.Session.SetString("FullName", acc.FullName); // Lưu FullName vào session
+                    HttpContext.Session.SetString("FullName", acc.FullName);
                     HttpContext.Session.SetString("UserId", acc.AccountId.ToString());
-                    return Redirect("/Product/Index");
+                    return Redirect("/ProductManage/Index");
                 }
                 else
                 {
-                    return Page();
+                    HttpContext.Session.SetString("FullName", acc.FullName);
+                    HttpContext.Session.SetString("UserId", acc.AccountId.ToString());
+                    return Redirect("/ProductCustomer/Index");
                 }
             }
 

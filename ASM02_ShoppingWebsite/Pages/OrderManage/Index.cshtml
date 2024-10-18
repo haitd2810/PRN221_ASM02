@@ -1,0 +1,78 @@
+﻿@page
+@model ASM02_ShoppingWebsite.Pages.OrderManage.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<form method="post" asp-page-handler="ExportTxt">
+    <div class="form-group">
+        <label for="fromDate">From Date:</label>
+        <input type="date" id="fromDate" name="fromDate" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="toDate">To Date:</label>
+        <input type="date" id="toDate" name="toDate" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Export to TXT</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].RequiredDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].ShippedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].Freight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].ShipAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order[0].Customer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Order) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RequiredDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShippedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Freight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShipAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.ContactName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.OrderId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.OrderId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.OrderId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
