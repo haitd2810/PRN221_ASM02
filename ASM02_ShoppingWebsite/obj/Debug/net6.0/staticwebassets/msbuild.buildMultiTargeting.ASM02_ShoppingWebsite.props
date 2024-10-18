@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASM02_ShoppingWebsite.props" />
+</Project>

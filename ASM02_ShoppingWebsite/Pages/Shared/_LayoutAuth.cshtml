@@ -36,16 +36,35 @@
                             <a class="nav-link text-light" href="#">Reviews</a>
                         </li>
                     </ul>
+
+                    <!-- Phần này để kiểm tra người dùng đã đăng nhập chưa -->
                     <ul class="navbar-nav flex-grow-1" style="justify-content: end;">
-                        <li class="nav-item">
-                            <a class="nav-link text-light" hidden href="#">Admin Page</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Register</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Auth/Index">Log in</a>
-                        </li>
+                        @if (Context.Session.GetString("FullName") != null)
+                        {
+                            <!-- Hiển thị tên người dùng và nút logout -->
+                            <li class="nav-item">
+                                <span class="nav-link text-light">Hello, @Html.Encode(Context.Session.GetString("FullName"))</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light"  asp-page="/UserPage/ProfileUser" asp-route-id="@Context.Session.GetString("UserId")">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-page="/UserPage/ViewOrderHistory" asp-route-id="@Context.Session.GetString("UserId")">Order History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Auth/Logout">Logout</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <!-- Hiển thị tùy chọn login và register nếu chưa đăng nhập -->
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Auth/Signup">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Auth/Index">Log in</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
