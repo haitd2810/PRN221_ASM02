@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FPTUniversity\\2024\\Fall24\\PRN221\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8296F7F-FDDF-49EB-A109-4F5B38754175}|ASM02_ShoppingWebsite.csproj|e:\\fptuniversity\\2024\\fall24\\prn221\\asm02_shoppingwebsite\\asm02_shoppingwebsite\\pages\\auth\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8296F7F-FDDF-49EB-A109-4F5B38754175}|ASM02_ShoppingWebsite.csproj|solutionrelative:pages\\auth\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8296F7F-FDDF-49EB-A109-4F5B38754175}|ASM02_ShoppingWebsite.csproj|e:\\fptuniversity\\2024\\fall24\\prn221\\asm02_shoppingwebsite\\asm02_shoppingwebsite\\pages\\shared\\_layoutauth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8296F7F-FDDF-49EB-A109-4F5B38754175}|ASM02_ShoppingWebsite.csproj|solutionrelative:pages\\shared\\_layoutauth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8296F7F-FDDF-49EB-A109-4F5B38754175}|ASM02_ShoppingWebsite.csproj|e:\\fptuniversity\\2024\\fall24\\prn221\\asm02_shoppingwebsite\\asm02_shoppingwebsite\\pages\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8296F7F-FDDF-49EB-A109-4F5B38754175}|ASM02_ShoppingWebsite.csproj|solutionrelative:pages\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8296F7F-FDDF-49EB-A109-4F5B38754175}|ASM02_ShoppingWebsite.csproj|e:\\fptuniversity\\2024\\fall24\\prn221\\asm02_shoppingwebsite\\asm02_shoppingwebsite\\asm02_shoppingwebsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C8296F7F-FDDF-49EB-A109-4F5B38754175}|ASM02_ShoppingWebsite.csproj|solutionrelative:asm02_shoppingwebsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ASM02_ShoppingWebsite",
+              "DocumentMoniker": "E:\\FPTUniversity\\2024\\Fall24\\PRN221\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite.csproj",
+              "RelativeDocumentMoniker": "ASM02_ShoppingWebsite.csproj",
+              "ToolTip": "E:\\FPTUniversity\\2024\\Fall24\\PRN221\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite.csproj",
+              "RelativeToolTip": "ASM02_ShoppingWebsite.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T06:39:39.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutAuth.cshtml",
+              "DocumentMoniker": "E:\\FPTUniversity\\2024\\Fall24\\PRN221\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite\\Pages\\Shared\\_LayoutAuth.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_LayoutAuth.cshtml",
+              "ToolTip": "E:\\FPTUniversity\\2024\\Fall24\\PRN221\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite\\Pages\\Shared\\_LayoutAuth.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_LayoutAuth.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T06:47:40.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2024\\Fall24\\PRN221\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite\\Pages\\Auth\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Auth\\Index.cshtml.cs",
+              "ToolTip": "E:\\FPTUniversity\\2024\\Fall24\\PRN221\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite\\Pages\\Auth\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Auth\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T06:42:43.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\FPTUniversity\\2024\\Fall24\\PRN221\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite\\Pages\\Auth\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Auth\\Index.cshtml",
+              "ToolTip": "E:\\FPTUniversity\\2024\\Fall24\\PRN221\\ASM02_ShoppingWebsite\\ASM02_ShoppingWebsite\\Pages\\Auth\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Auth\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T06:42:29.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

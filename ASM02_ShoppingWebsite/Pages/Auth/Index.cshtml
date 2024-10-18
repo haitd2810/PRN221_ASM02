@@ -1,0 +1,29 @@
+﻿@page
+@model ASM02_ShoppingWebsite.Pages.Auth.IndexModel
+@{
+    Layout = "_LayoutAuth";
+}
+<h1>Please log in here</h1>
+<h3>Enter your detail below</h3>
+
+<form method="post" class="m-5">
+    <div class="row mb-3">
+        <label for="inputEmail" class="col-sm-1 col-form-label">Email</label>
+        <div class="col-sm-5">
+            <input type="text" name="username" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputPassword" class="col-sm-1 col-form-label">Password</label>
+        <div class="col-sm-5">
+            <input type="password" name="password" class="form-control" id="inputPassword3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputPassword" hidden class="col-sm-5 col-form-label">Password</label>
+        <div class="col-sm-5">
+            <button type="submit" class="btn btn-primary">Log in</button>
+        </div>
+    </div>
+    
+</form>
